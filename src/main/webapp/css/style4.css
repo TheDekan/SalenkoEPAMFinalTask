@@ -1,0 +1,221 @@
+body {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h3 {
+	margin: 0 0 20px;
+	text-align: left;
+}
+
+.message {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.priceandoffer {
+	float: left
+}
+
+.grid {
+	width: 30%;
+	float: right;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.grid .remove {
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	color: #a94442;
+}
+
+.gridStyle {
+	border: 1px solid rgb(212, 212, 212);
+	height: 335px;
+}
+
+.grid2 {
+	width: 50%;
+	float: left;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.grid2 .remove {
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+	color: #a94442;
+}
+
+.form {
+	width: 30%;
+	margin-left: 3%;
+	margin-right: 3%;
+	text-align: left;
+}
+
+.form label {
+	width: 40px;
+}
+
+.form input {
+	width: 300px;
+	float: right;
+}
+
+.form select {
+	width: 300px;
+	float: right;
+}
+
+.form .form-group span {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #5cb85c;
+}
+
+.form .form-group p {
+	margin-top: 15px;
+	margin-left: 100px;
+	color: #a94442;
+	display: inline;
+}
+
+.form .avatar {
+	height: 250px;
+	float: right;
+	margin-right: 25px;
+}
+
+.form .buttons {
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+
+.form2 {
+	width: 35%;
+	float: right;
+	margin-left: 3%;
+	margin-right: 3%;
+	text-align: left;
+}
+
+.form2 label {
+	width: 40px;
+}
+
+.form2 input {
+	width: 150px;
+	float: right;
+}
+
+.form2 select {
+	width: 150px;
+	float: right;
+}
+
+.form2 .form-group span {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	color: #5cb85c;
+}
+
+.form2 .form-group p {
+	margin-top: 15px;
+	margin-left: 100px;
+	color: #a94442;
+	display: inline;
+}
+
+.form2 .avatar {
+	
+	float: right;
+}
+
+.form2 .buttons {
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+
+.form2 .form-group .checkbox {
+	width: 12px;
+	margin-right: 50%;
+}
+
+.menu {
+	text-align: right;
+	list-style: none;
+	padding: 0 0 0.5em;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.menu:before {
+	content: "[";
+}
+
+.menu:after {
+	content: "]";
+}
+
+.menu>li {
+	display: inline;
+}
+
+.menu>li:before {
+	content: "|";
+	padding-right: 0.3em;
+}
+
+.menu>li:nth-child(1):before {
+	content: "";
+	padding: 0;
+}
+
+.menu2 {
+	text-align: left; list-style : none;
+	padding: 0 0 0.5em;
+	font-size: 20px;
+	font-weight: bolder;
+	list-style: none;
+}
+
+.menu2>li {
+	display: inline;
+}
+
+.menu2>li:before {
+	padding-right: 0.3em;
+}
+
+.menu2>li:nth-child(1):before {
+	content: "";
+	padding: 0;
+}
+
+.column {
+	display: inline-block;
+	width: 23%
+}
+
+.form2 .valueLabel {
+	width: 200px;
+	margin-left: 25px;
+	float: right;	
+	text-align: right;
+}

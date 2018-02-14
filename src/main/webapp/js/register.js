@@ -1,0 +1,1 @@
+var app = angular.module('regs', [ 'ngResource', 'ngGrid', 'ui.bootstrap' ]);

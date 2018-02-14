@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+        http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>Departments Management Web Application</display-name>
+
+	<servlet>
+		<servlet-name>AuthorizationController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.AuthorizationController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>RegistrationController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.RegistrationController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>PriceChangeController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.PriceChangeController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>FridgeController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.FridgeMarketController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>StoveController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.StoveMarketController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>WasherController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.WasherMarketController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>CartController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.CartController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>DealController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.DealController</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UserController</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.UserController</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>ua.nure.salenko.rest.Welcome</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>AuthorizationController</servlet-name>
+		<url-pattern>/AuthorizationController</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>RegistrationController</servlet-name>
+		<url-pattern>/RegistrationController</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>PriceChangeController</servlet-name>
+		<url-pattern>/PriceChange</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>FridgeController</servlet-name>
+		<url-pattern>/Fridge</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>StoveController</servlet-name>
+		<url-pattern>/Stove</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>WasherController</servlet-name>
+		<url-pattern>/Washer</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>CartController</servlet-name>
+		<url-pattern>/Cart</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>DealController</servlet-name>
+		<url-pattern>/Deal</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UserController</servlet-name>
+		<url-pattern>/User</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/Welcome</url-pattern>
+	</servlet-mapping>
+
+	<error-page>
+		<exception-type>java.lang.Exception</exception-type>
+		<location>/Error.jsp</location>
+	</error-page>
+
+	<welcome-file-list>
+		<welcome-file>Welcome.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
